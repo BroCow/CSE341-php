@@ -9,8 +9,8 @@
         <meta name="description" content="This page serves as an introduction for my CSE341 Homepage.">
         <title>CSE 341 Homepage | Introduction</title>
         <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/normalize.css" media="screen">
-        <link rel="stylesheet" href="/css/homepage.css" media="screen">
+        <link rel="stylesheet" href="css/normalize.css" media="screen">
+        <link rel="stylesheet" href="css/homepage.css" media="screen">
     </head>
 
     <body>
