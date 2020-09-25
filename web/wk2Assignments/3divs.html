@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="author" content="Christopher Cowan">
+        <meta name="description" content="This page serves as the 02 Teach Assignment for CSE341.">
+        
+        <title>3 Divs | CSE 341</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css" media="screen">
+        <link rel="stylesheet" href="css/small.css" media="screen">
+        
+    </head>
+
+    <body>
+        <header>
+            <h1>Chris Cowan's "3-Div's" Page</h1>
+        </header>
+
+        <main>
+            <h2>Behold, Div 1</h2>
+            <div id="div1">
+                <p>This is div1</p>
+                <p>Would you like to change the background color using Javascript?
+                <br>
+                Enter the color you would like it to be in the text-box below:
+                </p>
+
+                <!--Make it so user can specify custom colors for the first div. To accomplish this, add a text box and another button labeled "Change color"-->
+                <form title="div1ColorChange" name="colorChange1">
+                    <label for="colorChange1">Color Choice
+                        <input title="Change Color 1" name="colorChange1" id="colorChange1" type="text">
+                    </label>
+                </form>
+
+                <button id="changeColorButton1" class="button" onclick="changeColor1()">Change Color</button>
+            </div>
+
+            <h2>Behold, Div 2</h2>
+            <div id="div2">
+                <p>This is div2</p>
+                <p>Would you like to change the background color using jQuery?
+                <br>
+                Enter the color you would like it to be in the text-box below:
+                </p>
+
+                <!--Make it so user can specify custom colors for the first div. To accomplish this, add a text box and another button labeled "Change color"-->
+                <form title="div2ColorChange" name="colorChange2">
+                    <label for="colorChange2">Color Choice
+                        <input title="Change Color 2" name="colorChange2" id="colorChange2" type="text">
+                    </label>
+                </form>
+
+                <button id="changeColorButton2" class="button">Change Color</button>
+            </div>
+
+            <h2>Behold, Div 3</h2>
+            <div id="div3">
+                <p>This is div3</p>
+            </div>
+
+            <h2>Behold, The Button</h2>
+            <button id="clickMeButton" class="button" onclick="buttonClick()">Click Me</button>
+        </main>
+
+        <script src="js/mainscript.js"></script>
+    </body>
+
+
+
+
+</html>
